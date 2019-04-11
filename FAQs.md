@@ -17,3 +17,12 @@
 
 * #### What will happen to a file if 2 or more persons push simultaneously?
 	All the logs (by any author) will be recorded based on datetime (even by a difference of slight microseconds) clearly.
+
+* #### What if I don't have a server and record the changes for myself? Is it doable?
+	Yes! <br/>
+	As many people would like to record changes for individual purpose. In this case, follow this procedure:
+	- the folder needs to initiated with `.git` using `Fork Client` application. 
+	- `stage` the changes, basically select file(s) to be recorded.
+	- `commit` the changes, basically record the changes with any comment(s).
+	- No need to `push` the __repository__, as you don't have any server (as per your choice).
+
