@@ -1,16 +1,26 @@
 ﻿# ViEW
 A software tool to use Git in Office | Excel, Word
 
-File Tree:
+Folder Tree:
 .
-├── FAQs.md
-├── FAQs.pdf
-├── Installation
-├── README.txt
-├── User Manual.md
-├── User Manual.pdf
-└── images
+|-- FAQs.md
+|-- FAQs.pdf
+|-- Installation
+|   |-- Bonobo Git Server
+|   |-- Fork Git Client
+|   |-- Git for Windows
+|   `-- README.txt
+|-- README.txt
+|-- Sessions
+|   `-- README.txt
+|-- User Manual.md
+|-- User Manual.pdf
+`-- images
+    |-- Fork
+    |-- view_flowchart.dgm
+    `-- view_flowchart.png
 
+7 directories, 9 files
 ----------------------------------------------------------------------------------------------------
 ## User Manual
 Everything is detailed in this document.
