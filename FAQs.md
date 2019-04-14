@@ -7,11 +7,12 @@
 	- rename a file
 	- delete a file
 	- edit the file content
+	- move a folder: will be considered as __deleting a file from one directory__ and __adding a file to another directory__. Basically, `1` and `3` steps above.
 
 * #### Can Auto-fetch be turned ON for a git repository?
 	Yes. it can be done like this __Right click on origin on the left pane__ in Git-Fork Application:
 
-	![auto_fetch Image](./images/Fork/auto_fetch.png)
+	![auto_fetch Image](./Installation/Fork%20Git%20Client/images/auto_fetch.png)
 
 	In the image above, you can see __Fetch 'origin' Automatically__ (ticked) on the left pane. This means that it would fetch the repository always when the Fork is opened.
 
@@ -74,7 +75,7 @@
 
 	The following picture shows the repository (named __SCL Office__), maintained without any server (basically, no `push` used, but `stage` + `commit`):
 
-	![Repository without Server](./images/Fork/repository_without_server.png)
+	![Repository without Server](./Installation/Fork%20Git%20Client/images/repository_without_server.png)
 
 	In the image above, you can find there is no `origin/master` (i.e. master branch of Remote server), but only `master` (i.e. master branch of locally stored folder)
 
