@@ -147,5 +147,6 @@ A software tool to use Git in Office | Excel, Word
 * `allsync`
 
 ## Advanced Features
+* Binary File - TODO
 * File change security - TODO
 * Old Block security -  TODO
