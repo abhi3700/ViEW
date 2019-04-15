@@ -119,11 +119,21 @@ A software tool to use Git in Office | Excel, Word
 	<p align="center">
 	  <img src="./images/commit_2.png" alt="Commit staged git Image" width="" height="">
 	</p>	
+	In the Image above, <br/>
+	<kbd>1</kbd> - Commit Message Title <br/>
+	<kbd>2</kbd> - Commit Message Description <br/>
+	<kbd>3</kbd> - Commit button (when clicked => committed/recorded) <br/>
+	<kbd>4</kbd> - Old Commit Message Titles. Can be used when repetitive title required. <br/>
+	<kbd>5</kbd> - Show Old commit message titles <br/>
+	<kbd>6</kbd> - Amend button i.e. when clicked, automatically uses last message title and description<br/>
 
 	__Example: Commit added to the Chain history__ 
 	<p align="center">
 	  <img src="./images/commit_3.png" alt="Commit chain history git Image" width="" height="">
 	</p>	
+	In the Image above, <br/>
+	<kbd>1</kbd> - Latest block (with files changes) added <br/>
+	<kbd>2</kbd> - commit Hash (unique Cryptographic Hash using SHA1 Algorithm) <br/>
 
 6. #### `push` <br/>
 7. #### `fetch` <br/>
@@ -135,3 +145,7 @@ A software tool to use Git in Office | Excel, Word
 * `diffc2`
 * `autopush`
 * `allsync`
+
+## Advanced Features
+* File change security - TODO
+* Old Block security -  TODO
