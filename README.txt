@@ -6,21 +6,27 @@ Folder Tree:
 |-- FAQs.md
 |-- FAQs.pdf
 |-- Installation
+|   |-- Batch programs
 |   |-- Bonobo Git Server
 |   |-- Fork Git Client
 |   |-- Git for Windows
 |   `-- README.txt
 |-- README.txt
 |-- Sessions
-|   `-- README.txt
+|   |-- README.txt
+|   `-- Session 1
 |-- User Manual.md
 |-- User Manual.pdf
 `-- images
-    |-- Fork
-    |-- view_flowchart.dgm
-    `-- view_flowchart.png
+    |-- init_1.png
+    |-- init_2.png
+    |-- pull.png
+    |-- remote_origin_master.png
+    |-- view_infographic.dgm
+    `-- view_infographic.png
 
-7 directories, 9 files
+8 directories, 13 files
+
 ----------------------------------------------------------------------------------------------------
 ## User Manual
 Everything is detailed in this document.
