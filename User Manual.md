@@ -110,6 +110,21 @@ A software tool to use Git in Office | Excel, Word
 	<kbd>2</kbd> - Unstage selected file(s) <br/>
 
 5. #### `commit` <br/>
+	This is to record file changes and add it to the chain history. Here, __commit__ means assigning a random unique no. (called as Cryptographic Hash) to a change.
+	<p align="center">
+	  <img src="./images/commit_1.png" alt="Commit git Image" width="" height="">
+	</p>	
+
+	__Example: Commit the Staged files__
+	<p align="center">
+	  <img src="./images/commit_2.png" alt="Commit staged git Image" width="" height="">
+	</p>	
+
+	__Example: Commit added to the Chain history__ 
+	<p align="center">
+	  <img src="./images/commit_3.png" alt="Commit chain history git Image" width="" height="">
+	</p>	
+
 6. #### `push` <br/>
 7. #### `fetch` <br/>
 8. #### `pull` <br/>
