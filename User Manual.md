@@ -1,5 +1,5 @@
 # ViEW (Version control system in Excel, Word)
-### Version: 0.1
+#### Version: 0.1
 A software tool to use Git in Office | Excel, Word
 
 ![ViEW Infographic](./images/view_infographic.png)
@@ -7,9 +7,185 @@ A software tool to use Git in Office | Excel, Word
 ## Tools Installation
 ### MS Excel 2013 Professional Plus
 ### [Git for Windows](./Installation/Git%20for%20Windows)
+* Follow the Instructions as per the [setup file](./Installation/Git%20for%20Windows/Git-2.21.0-64-bit.exe)
+	> In order to work properly i.e. provide __Unix__ features in __Windows__, tick/untick as per the images provided below.
+* __Components Installation__
+	<p align="left">
+	  <img src="./Installation/Git%20for%20Windows/images/components_installation.png" alt="component installation Image" width="" height="">
+	</p>
+* __Config Terminal Emulator__
+	<p align="left">
+	  <img src="./Installation/Git%20for%20Windows/images/config_teminal_emulator.png" alt="config_teminal_emulator Image" width="" height="">
+	</p>
+* __Extra options__
+	<p align="left">
+	  <img src="./Installation/Git%20for%20Windows/images/extra_options.png" alt="extra_options Image" width="" height="">
+	</p>
+* __Use Git from Command line__
+	<p align="left">
+	  <img src="./Installation/Git%20for%20Windows/images/use_git_from_command_line.png" alt="use_git_from_command_line Image" width="" height="">
+	</p>
+* __Choosing HTTP Transport Backend__
+	<p align="left">
+	  <img src="./Installation/Git%20for%20Windows/images/choosing_http_transport_backend.png" alt="choosing_http_transport_backend Image" width="" height="">
+	</p>
+* __Config line style__
+	<p align="left">
+	  <img src="./Installation/Git%20for%20Windows/images/config_line_style.png" alt="config_line_style Image" width="" height="">
+	</p>
+* __Use Sublime Text 3 as editor__
+	<p align="left">
+	  <img src="./Installation/Git%20for%20Windows/images/use_sublime_text_editor.png" alt="use_sublime_text_editor Image" width="" height="">
+	</p>
+
+
 ### [Batch programs](./Installation/Batch%20programs)
-### Environment PATH variables
+* Mainly there are 3 batch files, which are to be used for Excel, Word file types:
+	- `showc`: Show a Word/Excel file on a specific datetime.
+	- `diffc1`: Compare 2 versions (past & latest) of a Word/Excel file on 2 different datetime.
+	- `diffc2`: Compare 2 versions (on 2 different dates) of a Word/Excel file on 2 different datetime.
+
+### Set Environment PATH variable
+* Add location of __Developer folder__ (e.g. "F:\Developer") to Environment PATH variable in Windows PC/Desktop.
+	
+	__Folder structure:__ 
+	```console
+	.
+	|-- .gitignore
+	|-- diffc1.bat
+	|-- diffc2.bat
+	|-- gitsetup.bat
+	|-- openinst3.bat
+	|-- showc.bat
+	```
+
+	Here, execute in Command prompt.
+
+	__Step 1: Open in Command Line__
+	<p align="center">
+	  <img src="./images/gitsetup_1.png" alt="gitsetup_1 Image" width="" height="">
+	</p>
+
+	__Step 2: Execute gitsetup.bat file__
+	<p align="center">
+	  <img src="./images/gitsetup_2.png" alt="gitsetup_2 Image" width="" height="">
+	</p>
+
+	In the Image above,
+	<kbd>1</kbd> - type `gitsetup.bat` and enter.
+
+
 ### [Bonobo Git Server](./Installation/Bonobo%20Git%20Server)
+#### Installation
+[Prerequisites](https://bonobogitserver.com/prerequisites/)
+
+* Go to Control Panel - "Turn Windows Features On/Off"
+* tick the "Internet Information Services" and Apply.
+* Then, to install .NET Framework and ASP.NET support, follow this:
+	- under "IIS -> World Wide Web Services -> Application Development Features"
+	- Tick the followings and Apply.
+		+ .NET Extensibility 4.7
+		+ ASP.NET 4.7
+		+ ISAPI Extensions
+		+ ISAPI Filters
+* Now, the prerequisites are installed.
+
+[Bonobo Installation from Internet](https://bonobogitserver.com/install/) <br/>
+[Bonobo Installation from Local folder](./Installation/Bonobo%20Git%20Server/Bonobo%20Git%20Server_v6_3_0.zip)
+
+**Follow the steps:**
+* Extract the Zip folder to "C:\inetpub\wwwroot" directory as shown in the image below -
+	<p align="center">
+	  <img src="./Installation/Bonobo%20Git%20Server/images/Bonobo_1_extraction_to_wwwroot_folder.png" alt="Admin page Image" width="" height="">
+	</p>
+
+* Set the permission (Modify, Write) for the App_Data folder inside Bonobo.Git.Server.
+* Open IIS Manager. Goto "Right Click" on Bonobo.Git.Server and Convert to Application.
+* Click on Authentication of Bonobo.Git.Server and enable Anonymous Authentication.
+
+[Images folder](./Installation/Bonobo%20Git%20Server/images/)
+
+#### Explore
+* #### Admin page
+	Default credentials are username: _admin_ password: _admin_
+	<p align="center">
+	  <img src="./Installation/Bonobo%20Git%20Server/images/admin_page.png" alt="Admin page Image" width="" height="">
+	</p>
+
+* #### Change Admin details
+	<p align="center">
+	  <img src="./Installation/Bonobo%20Git%20Server/images/admin_change_details.png" alt="Admin change details Image" width="" height="">
+	</p>
+* #### Manage Users
+	__Step 1:__
+	<p align="center">
+	  <img src="./Installation/Bonobo%20Git%20Server/images/manage_user_1.png" alt="Manage User 1 Image" width="" height="">
+	</p>
+
+	In the Image above, <br/>
+	<kbd>1</kbd> - Click on this to see the list of users <br/>
+	<kbd>2</kbd> - Create new User <br/>
+	<kbd>3</kbd> - A user created named - __Abhijit__ <br/>
+	<kbd>4</kbd> - Admin is also a user <br/>
+
+	__Step 2:__
+	<p align="center">
+	  <img src="./Installation/Bonobo%20Git%20Server/images/manage_user_2.png" alt="Manage User 2 Image" width="" height="">
+	</p>
+	
+	In the Image above, fill all the user details (along with password) and then press <kbd>Create</kbd> button.
+
+* #### List of Repositories
+	<p align="center">
+	  <img src="./Installation/Bonobo%20Git%20Server/images/repository_1.png" alt="Repository 1 Image" width="" height="">
+	</p>
+	
+	In the Image above, <br/>
+	<kbd>1</kbd> - A missing repository (deleted from explorer) <br/>
+	<kbd>2</kbd> - A existing repository <br/>
+	<kbd>3</kbd> - Create New repository <br/>
+	<kbd>4</kbd> - Repository's URL (e.g. "http://localhost/Bonobo.Git.Server/demo1.git") <br/>
+	<kbd>5</kbd> - Edit repository details (add/delete users, repository details...) <br/>
+	<kbd>6</kbd> - Delete the repository from Server side.
+
+* #### Create New Repository
+	<p align="center">
+	  <img src="./Installation/Bonobo%20Git%20Server/images/repository_2.png" alt="Repository 2 Image" width="" height="">
+	</p>
+	
+	Fill the repository details, add/delete contributors and then press <kbd>Create</kbd> button.
+
+* #### Team list
+	<p align="center">
+	  <img src="./Installation/Bonobo%20Git%20Server/images/team_1.png" alt="Team 1 Image" width="" height="">
+	</p>
+
+	In the Image above, there is no team created as yet.
+
+* #### Create Team
+	<p align="center">
+	  <img src="./Installation/Bonobo%20Git%20Server/images/team_2.png" alt="Team 2 Image" width="" height="">
+	</p>
+
+	In the Image above, add users in your team. Give the details and then press the <kbd>Save</kbd> button.
+	
+* #### Repository Browser
+	Click on a repository (say, demo1) in the __Repositories Page__. It will be shown as below:
+	<p align="center">
+	  <img src="./Installation/Bonobo%20Git%20Server/images/repository_browser.png" alt="Repository Browser Image" width="" height="">
+	</p>
+
+* #### Settings page
+	<p align="center">
+	  <img src="./Installation/Bonobo%20Git%20Server/images/Bonobo_Settings.png" alt="Bonobo Settings Image" width="" height="">
+	</p>
+
+	- change the default location to your choice
+	- Allow user repository creation
+	- Allow push to create repos
+	- Allow push for anonymous repos
+	- Show commit author avatar
+
 ### [Fork Git Client](./Installation/Fork%20Git%20Client)
 #### Standard
 * Click the Setup file and install it as per instruction.
