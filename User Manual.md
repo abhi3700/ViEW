@@ -419,5 +419,6 @@ A software tool to use Git in Office | Excel, Word
 
 ## Advanced Features
 * Binary File - TODO
+* Ignore/Allow specified files - TODO
 * File change security - TODO
 * Old Block security -  TODO
