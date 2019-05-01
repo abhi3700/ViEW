@@ -5,8 +5,8 @@ A software tool to use Git in Office | Excel, Word
 ![ViEW Infographic](./images/view_infographic.png)
 
 ## Tools Installation
-### MS Excel 2013 Professional Plus
-* MS Excel with `spreadsheet-compare` inside it, would help to compare 2 versions of a file side-by-side. <br/>
+### MS Office 2013 Professional Plus
+* MS Office (any version) with `spreadsheet-compare` inside it, will be used to compare 2 versions of a file side-by-side. <br/>
 	The `spreadsheetcomapre.exe` file is normally available (depends on MS Office version) in this directory - __"C:\Program Files (x86)\Microsoft Office\Office15\DCF"__. 
 	<p align="left">
 	  <img src="./images/spreadsheetcompare_1.png" alt="spreadsheetcompare Image" width="" height="">
