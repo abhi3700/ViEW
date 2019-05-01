@@ -6,6 +6,28 @@ A software tool to use Git in Office | Excel, Word
 
 ## Tools Installation
 ### MS Excel 2013 Professional Plus
+* MS Excel with `spreadsheet-compare` inside it, would help to compare 2 versions of a file side-by-side. <br/>
+	The `spreadsheetcomapre.exe` file is normally available (depends on MS Office version) in this directory - __"C:\Program Files (x86)\Microsoft Office\Office15\DCF"__. 
+	<p align="left">
+	  <img src="./images/spreadsheetcompare_1.png" alt="spreadsheetcompare Image" width="" height="">
+	</p>
+
+* It looks like this:
+	<p align="left">
+	  <img src="./images/spreadsheetcompare_2.png" alt="spreadsheetcompare Image" width="" height="">
+	</p>
+* Comparing 2 versions of a file in spreadsheetcompare:
+	<p align="left">
+	  <img src="./images/spreadsheetcompare_3.png" alt="spreadsheetcompare Image" width="" height="">
+	</p>
+
+	In the Image above, <br/>
+	<kbd>1</kbd> - A version (Old) of an Excel file (__Book1.xlsx__) on `22 Mar 2019 11:18:26` <br/>
+	<kbd>2</kbd> - Another (New) version of an Excel file (__Book1.xlsx__) on `24 Mar 2019 13:51:52`<br/>
+	<kbd>3</kbd> - Shown the differences by color. Entered values in green color, <br/>
+
+
+
 ### [Git for Windows](./Installation/Git%20for%20Windows)
 * Follow the Instructions as per the [setup file](./Installation/Git%20for%20Windows/Git-2.21.0-64-bit.exe)
 	> In order to work properly i.e. provide __Unix__ features in __Windows__, tick/untick as per the images provided below.
