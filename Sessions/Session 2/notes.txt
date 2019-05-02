@@ -1,0 +1,2 @@
+1. demo of "download a git folder from server" - download into "\\vmfg\VFD FILE SERVER\SECTIONS\DRY ETCH\Engineers\Abhijit"
+2. 
