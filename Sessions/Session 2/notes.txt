@@ -1,2 +1,4 @@
 1. demo of "download a git folder from server" - download into "\\vmfg\VFD FILE SERVER\SECTIONS\DRY ETCH\Engineers\Abhijit"
-2. 
+2. Draw a infographic (using Freshdiagram App) of Folder tree for VMFG to understand how to make the folder as git_server
+	and how to make the Admin-protected.
+3.  
