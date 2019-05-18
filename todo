@@ -1,8 +1,26 @@
 ViEW
 ====
 
+Released (Add in Changelog)
+--------
++ "ViEW" Software folder maintained in "../vmfg"
++ Auto-push file changes, folder tree
++ Show a file on a specific date
++ Compare a file on specific datetime and latest version.
++ Compare a file b/w it's content on 2 specific dates.
++ Applications
+  - Production logbook
+  - QC logbook
+  - OP Documentation
+  - Wafer Map in lithography
+    E.g.:
+      For each layer (say AA), there is an Excel file.
+      Now, in each Excel file, there are multiple sheets named SCMP01, SCMP02, ....with wafer map.
+      Now, whenever there are multiple runs then that excel file could be updated.
+      And there will be a log of all the wafer maps for each runs of SCMP01/SCMP02/...
+
 Upcoming features
 -----------------
-
-+ Download a sub-folder from git-repository using `svn`
-+ GUI for opening the Excel, Word files. 
+- Download a sub-folder from git-repository using `svn`
+- Add user-auth using SSH.
+- GUI for opening the Excel, Word files. 
