@@ -21,6 +21,7 @@ Released (Add in Changelog)
 
 Upcoming features
 -----------------
-- Download a sub-folder from git-repository using `svn`
-- Add user-auth using SSH.
-- GUI for opening the Excel, Word files. 
++ Download a sub-folder from git-repository using `svn`
++ Add user-auth using SSH (each user sends me their public key and securely own corresponding private key) and now __Admin__ can give them the repo url
+  - Refer: https://github.com/sitaramc/gitolite 
++ GUI for opening the Excel, Word files. 
